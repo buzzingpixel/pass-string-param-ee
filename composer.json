@@ -1,0 +1,43 @@
+{
+    "name": "buzzingpixel/pass-string-param-ee",
+    "version": "1.0.0",
+    "description": "Encodes a string so that it can be passed to embeds as a parameter",
+    "type": "ee-add-on",
+    "authors": [
+        {
+            "name": "TJ Draper",
+            "email": "tj@buzzingpixel.com",
+            "homepage": "https://buzzingpixel.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:tjdraper/expressionengine.git"
+        }
+    ],
+    "require": {
+        "roave/security-advisories": "dev-master"
+    },
+    "require-dev": {
+        "tjdraper/expressionengine": "4.0.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "stats": "",
+            "EllisLab\\" : "libraries/ExpressionEngine/system/ee/EllisLab/"
+        },
+        "psr-4": {
+            "buzzingpixel\\passstringparam\\": "pass_string_param/"
+        }
+
+    },
+    "extra": {
+        "handle": "pass_string_param",
+        "systemPath": "pass_string_param"
+    }
+}
