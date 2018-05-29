@@ -9,6 +9,6 @@ return array(
     'author_url' => 'https://buzzingpixel.com',
     'name' => 'Pass String Parameter',
     'description' => 'Encodes a string so that it can be passed to embeds as a parameter',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'namespace' => 'buzzingpixel\passstringparam',
 );
